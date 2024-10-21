@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+    top: 100px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: animateColor 5s linear infinite ;
+}
