@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/KevinRushProfile.jpg";
+/*import profilePic from "../assets/KevinRushProfile.jpg";*/
 import { motion } from "framer-motion";
 import MatrixRain from './MatrixRain';
 
@@ -51,7 +51,7 @@ const Hero = ({}) => {
             animate="visible"
             className="flex justify-center"
           >
-            <div className="hidden lg:block"> {/* Hide on mobile, show on larger screens */}
+            <div className="hidden lg:block"> 
               <MatrixRain />
             </div>
           </motion.div>

@@ -51,7 +51,7 @@ export const PROJECTS = [
     title: "Weather App",
     image: project2,
     description:
-      "A web application that provides real-time weather information for user-defined locations. ",
+      "A web application that provides real-time weather information for user-defined locations as well as actual timing. ",
     technologies: ["HTML", "CSS", "Java Script",],
   },
   {
@@ -61,13 +61,13 @@ export const PROJECTS = [
       "A web-based application to assess typing speed and accuracy with accessibility considerations and beep sounds to provide real-time auditory feedback on typing errors.",
     technologies: ["HTML", "CSS", "Java Script"],
   },
-  /*{
-    title: "Blogging Platform",
+  {
+    title: "Online Drawing Application",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },*/
+      "An interactive web application that allows users to create and download their own drawings.",
+    technologies: ["HTML", "CSS", "Java Script"],
+  },
 ];
 
 export const CONTACT = {
