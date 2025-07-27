@@ -41,7 +41,7 @@ const Tech = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiPytorch className="text-7xl text-red-400"/>
+            <SiPytorch className="text-7xl text-red-600"/>
         </motion.div>
         
         <motion.div 
