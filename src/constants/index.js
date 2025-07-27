@@ -3,16 +3,26 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I'm an enthusiastic third-year computer science student in Faculty of Science Sfax with a passion for full-stack development and a deep interest in AI and machine learning. With experience in React, Node.js, Laravel, and the MERN stack, I enjoy building dynamic,scalable web applications and constantly exploring new technologies. My goal is to combine my development skills with AI and ML to create impactful solutions that enhance user experiences and drive innovation.`;
+export const HERO_CONTENT = `I'm a recent Computer Science graduate from the Faculty of Science of Sfax, specializing in software engineering. With a strong foundation in full-stack development and artificial intelligence, i have a particular interest passion for machine learning and computer vision. My goal is to create an impactful AI-powered solutions that solve real-world problems and enhance user experiences.`;
 
-export const ABOUT_TEXT = `Through my studies and hands-on projects, I’ve gained experience with technologies like React, Node.js, MySQL, and PHP. My curiosity about how websites function sparked my passion for web development, driving me to constantly learn and tackle new challenges. I enjoy collaborating in team settings, solving complex problems, and writing clean, maintainable code.
-I am particularly interested in real-time communication, responsive design, and application performance optimization. Additionally, I am eager to expand my knowledge in both front-end and back-end development, as well as AI and machine learning, to create smarter, user-centered applications. I actively explore new technologies and contribute to open-source projects, driven by the goal of making a meaningful impact through my work.`;
+export const ABOUT_TEXT = `Through my studies and hands-on projects, I have transitioned from web development to specialize in artificial intelligence and machine learning. While I initially built a strong foundation with technologies like React, Node.js, MySQL, and PHP, my passion has evolved toward building intelligent systems that solve real-world problems.
+
+I enjoy working on AI projects involving deep learning, computer vision, and natural language processing, using tools such as PyTorch, OpenCV, and MediaPipe. I thrive in collaborative environments where I can tackle complex challenges and continuously improve my models and algorithms. My goal is to develop innovative, user-centered AI applications that enhance lives and drive impactful change.
+
+I am committed to ongoing learning and enjoy contributing to open-source AI projects, exploring cutting-edge research, and applying theory to practical, real time syste`;
 
 export const EXPERIENCES = [
   {
+    year: "February 2025 - June 2025",
+    role: "AI Developer Intern",
+    company: "Sfax Informatique",
+    description: `Developed a prototype for sign language interpretation using a multimodal representation combining a trained SwinV2-Large model and hand landmarks. The system translates signs in real-time into text and audio, facilitating communication for non-verbal individuals.`,
+    technologies: ["PyTorch", "OpenCV", "MediaPipe", "Python"]
+  },
+  {
     year: "August 2024",
-    role: "Full Stack Developer",
-    company: "Web Vue.",
+    role: "Full Stack Developer Intern",
+    company: "Web Vue",
     description: ` Developed a full stack chat web application based on real time messaging using React.js,Tailwind CSS and Laravel. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["React.js", "Laravel", "TailwindCss", "MySql"],
   },
