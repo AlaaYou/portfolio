@@ -34,14 +34,14 @@ const Tech = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiTensorflow className="text-7xl text-green-700 "/>
+            <SiTensorflow className="text-7xl text-orange-500 "/>
         </motion.div>
         <motion.div 
         variants={iconVarients(3)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiPytorch className="text-7xl "/>
+            <SiPytorch className="text-7xl text-orange-600"/>
         </motion.div>
         
         <motion.div 
