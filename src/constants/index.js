@@ -2,6 +2,10 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/hmc.jpg";
+import project6 from "../assets/projects/mouse1.png";
+import project7 from "../assets/projects/result.jpg";
+import project8 from "../assets/projects/sign.png";
 
 export const HERO_CONTENT = `I'm a recent Computer Science graduate from the Faculty of Science of Sfax, and currently a Software Engineering student at IIT Sfax, with a focus on AI and Computer Vision. With a strong foundation in full-stack development and artificial intelligence, i have a particular passion for machine learning and computer vision. My goal is to create an impactful AI-powered solutions that solve real-world problems and enhance user experiences.`;
 
@@ -66,28 +70,28 @@ export const PROJECTS = [
   },
   {
     title: "Sign Language Interpreter",
-    image: project2,
+    image: project8,
     description:
       "An intelligent real-time system that translates sign language into both Arabic and English text and speech. Built upon a custom-trained SwinV2-Large Transformer model enhanced with multimodal landmarks analysis to enable seamless communication between sign language users and non-signers.",
     technologies: ["Python", "PyTorch","Transformers", "OpenCV", "MediaPipe", "Multimodal Learning"],
   },
   {
     title: "Gesture Mouse Control",
-    image: project2,
+    image: project6,
     description:
       "A deep learning model trained on mediapipe landmarks of specific hand signs which then will be used to control the mouse of the machine. ",
     technologies: ["Python", "MediaPipe", "OpenCv"],
   },
   {
     title: "Tomato Grade Classifier",
-    image: project3,
+    image: project7,
     description:
       "A research project that studies how multiple deep learning models -like CNN (EfficientNet v2), Transformer (ViT Base 16) and YOLOv8- perform on a locally collected dataset for grading Tomatoes based on their characteristics.",
     technologies: ["Python","YOLOv8", "OpenCv", "Neural Networks", "Transformers"],
   },
   {
     title: "H.M.C: Hand Machine Control",
-    image: project3,
+    image: project5,
     description:
       "An intelligent system that enables users to control machines through hand gestures. Using computer vision to detect hand movements which will be interpreted in real time, then transmitted via serial communication to an ESP32 microcontroller to execute the corresponding commands.",
     technologies: ["Python", "YOLOv8", "OpenCV", "ESP32", "PySerial"],
