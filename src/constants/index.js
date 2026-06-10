@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/hmc.jpg";
+import project9 from "../assets/projects/hmc1.jpg";
 import project6 from "../assets/projects/mouse1.png";
 import project7 from "../assets/projects/result.jpg";
 import project8 from "../assets/projects/sign.png";
@@ -91,7 +92,7 @@ export const PROJECTS = [
   },
   {
     title: "H.M.C: Hand Machine Control",
-    image: project5,
+    image: project9,
     description:
       "An intelligent system that enables users to control machines through hand gestures. Using computer vision to detect hand movements which will be interpreted in real time, then transmitted via serial communication to an ESP32 microcontroller to execute the corresponding commands.",
     technologies: ["Python", "YOLOv8", "OpenCV", "ESP32", "PySerial"],
