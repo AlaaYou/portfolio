@@ -2,7 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
-import resume from "../assets/Alaa Yousfi Cv.pdf";
+import resume from "../assets/Alaa_Yousfi_Resume_English.pdf";
 import { useState } from "react";
 import CustomConfirm from './CustomConfirm'; 
 
