@@ -3,13 +3,13 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I'm a recent Computer Science graduate from the Faculty of Science of Sfax, specializing in software engineering. With a strong foundation in full-stack development and artificial intelligence, i have a particular interest passion for machine learning and computer vision. My goal is to create an impactful AI-powered solutions that solve real-world problems and enhance user experiences.`;
+export const HERO_CONTENT = `I'm a recent Computer Science graduate from the Faculty of Science of Sfax, and currently a Software Engineering student at IIT Sfax, with a focus on AI and Computer Vision. With a strong foundation in full-stack development and artificial intelligence, i have a particular passion for machine learning and computer vision. My goal is to create an impactful AI-powered solutions that solve real-world problems and enhance user experiences.`;
 
 export const ABOUT_TEXT = `Through my studies and hands-on projects, I have transitioned from web development to specialize in artificial intelligence and machine learning. While I initially built a strong foundation with technologies like React, Node.js, MySQL, and PHP, my passion has evolved toward building intelligent systems that solve real-world problems.
 
 I enjoy working on AI projects involving deep learning, computer vision, and natural language processing, using tools such as PyTorch, OpenCV, and MediaPipe. I thrive in collaborative environments where I can tackle complex challenges and continuously improve my models and algorithms. My goal is to develop innovative, user-centered AI applications that enhance lives and drive impactful change.
 
-I am committed to ongoing learning and enjoy contributing to open-source AI projects, exploring cutting-edge research, and applying theory to practical, real time syste`;
+I am committed to ongoing learning and enjoy contributing to open-source AI projects, exploring cutting-edge research, and applying theory to practical, real time systems`;
 
 export const EXPERIENCES = [
   {
@@ -24,7 +24,7 @@ export const EXPERIENCES = [
     role: "Full Stack Developer Intern",
     company: "Web Vue",
     description: ` Developed a full stack chat web application based on real time messaging using React.js,Tailwind CSS and Laravel. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["React.js", "Laravel", "TailwindCss", "MySql"],
+    technologies: ["React.js", "Laravel", "Tailwind Css", "MySQL"],
   },
   /*{
     year: "2022 - 2023",
@@ -58,26 +58,41 @@ export const PROJECTS = [
     technologies: ["React.js", "Laravel","TailwindCss","MySql"],
   },
   {
-    title: "Weather App",
-    image: project2,
-    description:
-      "A web application that provides real-time weather information for user-defined locations as well as actual timing. ",
-    technologies: ["HTML", "CSS", "Java Script",],
-  },
-  {
-    title: "Typing-Test Game",
-    image: project3,
-    description:
-      "A web-based application to assess typing speed and accuracy with accessibility considerations and beep sounds to provide real-time auditory feedback on typing errors.",
-    technologies: ["HTML", "CSS", "Java Script"],
-  },
-  {
     title: "Online Drawing Application",
     image: project4,
     description:
       "An interactive web application that allows users to create and download their own drawings.",
     technologies: ["HTML", "CSS", "Java Script"],
   },
+  {
+    title: "Sign Language Interpreter",
+    image: project2,
+    description:
+      "An intelligent real-time system that translates sign language into both Arabic and English text and speech. Built upon a custom-trained SwinV2-Large Transformer model enhanced with multimodal landmarks analysis to enable seamless communication between sign language users and non-signers.",
+    technologies: ["Python", "PyTorch","Transformers", "OpenCV", "MediaPipe", "Multimodal Learning"],
+  },
+  {
+    title: "Gesture Mouse Control",
+    image: project2,
+    description:
+      "A deep learning model trained on mediapipe landmarks of specific hand signs which then will be used to control the mouse of the machine. ",
+    technologies: ["Python", "MediaPipe", "OpenCv"],
+  },
+  {
+    title: "Tomato Grade Classifier",
+    image: project3,
+    description:
+      "A research project that studies how multiple deep learning models -like CNN (EfficientNet v2), Transformer (ViT Base 16) and YOLOv8- perform on a locally collected dataset for grading Tomatoes based on their characteristics.",
+    technologies: ["Python","YOLOv8", "OpenCv", "Neural Networks", "Transformers"],
+  },
+  {
+    title: "H.M.C: Hand Machine Control",
+    image: project3,
+    description:
+      "An intelligent system that enables users to control machines through hand gestures. Using computer vision to detect hand movements which will be interpreted in real time, then transmitted via serial communication to an ESP32 microcontroller to execute the corresponding commands.",
+    technologies: ["Python", "YOLOv8", "OpenCV", "ESP32", "PySerial"],
+  },
+  
 ];
 
 export const CONTACT = {
