@@ -14,7 +14,7 @@ export const ABOUT_TEXT = `Through my studies and hands-on projects, I have tran
 
 I enjoy working on AI projects involving deep learning, computer vision, and natural language processing, using tools such as PyTorch, OpenCV, and MediaPipe. I thrive in collaborative environments where I can tackle complex challenges and continuously improve my models and algorithms. My goal is to develop innovative, user-centered AI applications that enhance lives and drive impactful change.
 
-I am committed to ongoing learning and enjoy contributing to open-source AI projects, exploring cutting-edge research, and applying theory to practical, real time systems`;
+I am committed to ongoing learning and enjoy contributing to open-source AI projects, exploring cutting-edge research, and applying theory to practical, real time systems.`;
 
 export const EXPERIENCES = [
   {
